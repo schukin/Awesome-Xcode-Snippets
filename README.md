@@ -11,6 +11,12 @@ Xcode snippets that are good.
 
 ## Examples
 
+* **dlog**: because we're too lazy to set up logging breakpoints.
+	
+	```objective-c
+	NSLog(@"%s:%d", __PRETTY_FUNCTION__, __LINE__);
+	```
+
 Create block variables for `[UIView animateWithDuration:animations:completion:]` with **danimationBlock** and **dcompletionBlock**:
 
 * **danimationBlock**
